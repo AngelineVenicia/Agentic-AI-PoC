@@ -1,5 +1,5 @@
-# Agentic-AI-PoC
-# 🚀 AM&D Agentic AI – Proof of Concept
+
+# 🚀Agentic AI – Proof of Concept
 
 This repository presents a **code-free summary** of a production-level PoC on using **Agentic AI** for automated unit test generation and code quality improvement.
 
@@ -9,18 +9,30 @@ This repository presents a **code-free summary** of a production-level PoC on us
 
 ## 📌 Objective
 
-- Perform code quality assessment of an enterprise-scale codebase.
-- Explore the use of **AI agents** (like Copilot Agent Mode, Claude, and GPT models) to **automatically generate unit tests**.
-- Improve test coverage, detect bugs, and accelerate QA with minimal manual effort.
+- Using **Agentic AI** to assess code quality of a **legacy production codebase** and uncover opportunities for improvement.
+- Leverage **AI agents** (Copilot Agent Mode) to:
+  - 🔍 **Identify gaps** in existing test coverage.
+  - 🧪 **Generate unit tests** for missing scenarios, validate branch/edge coverage, and error conditions.
+  - 🛠️ **Detect issues** such as missing null checks, incorrect method calls for validation, and missing test or mock setups.
+- Evaluate the **reasoning capabilities of different AI models** in understanding context and generating meaningful tests.
+- Demonstrate how **Agentic AI** can serve as a **test engineer**, accelerating SDLC workflows with minimal manual effort.
 
 ---
 
-## 🛠️ Tools & Techniques
+## 🛠️ Tools
 
 - 🧠 **Agentic AI (Copilot in Agent Mode)**
-- 🤖 **Claude Sonnet 4**, **GPT Models**
-- 🧪 Unit testing with existing CI/CD setup
-- 📈 Internal test reporting and bug detection frameworks
+- 🤖 **Claude Sonnet Models**, **GPT Models**
+
+### 🔹 Models Used
+- **GPT Models**:
+  - GPT-4.1
+  - GPT-4.0
+- **Claude Sonnet Models**:
+  - Claude 3.5
+  - Claude 3.7
+
+- 🧪 Unit testing with existing test setup
 
 ---
 
@@ -35,26 +47,25 @@ This repository presents a **code-free summary** of a production-level PoC on us
 - Assessed based on:
   - Compilation success
   - Bug detection
-  - Contextual accuracy
-  - Code hallucination rate
+  - Contextual awareness
+  - Less hallucination 
 
 ### 🔹 Comparative Analysis
 - Documented behavior of models across **two phases**:
   - **Phase 1**: GPT models (higher errors, poor context handling)
-  - **Phase 2**: Claude Sonnet 4 (minimal errors, high accuracy)
+  - **Phase 2**: Claude Sonnet Models (minimal errors, better accuracy)
 
 ---
 
 ## 📊 Results
 
-| Phase        | Tests Added | Code Coverage | Bugs Found | Notes                           |
-|--------------|-------------|----------------|-------------|----------------------------------|
-| Phase 1      | ~48         | —              | —           | Frequent errors, low context     |
-| Phase 2      | ~738        | +13%           | 10          | High accuracy, better coverage   |
+|      Model      | Tests Added |  Code Coverage |
+|-----------------|-------------|----------------|
+| Claude Sonnet 4 | ~738        | +13%           |
 
 - ✅ **646 Passed** | ❌ **92 Failed**
 - ⚡ ~**20x speedup** in test generation
-- 🧠 **Better model reasoning** in Phase 2 with Claude Sonnet
+- 🧠 **Better model reasoning** in Phase 2 with Claude Sonnet 4.0
 
 ---
 
@@ -64,9 +75,8 @@ This repository presents a **code-free summary** of a production-level PoC on us
 - Covered:
   - Core functionality
   - Edge cases
-  - Branch & error conditions
-- Improved development velocity and code confidence.
-
+  - Branch coverage
+  - Error conditions
 ---
 
 ## 🧩 Challenges
@@ -97,12 +107,8 @@ This repository presents a **code-free summary** of a production-level PoC on us
 ## 📚 Learnings
 
 - Agentic AI tools can significantly improve development workflows when carefully prompted and evaluated.
-- Model performance can vary widely — **evaluating multiple models is key**.
-- AI-assisted coding in production is **feasible**, provided quality gates and validations are in place.
+- Model performance can vary widely depending upon the task— **evaluating multiple models is key**.
+- Desinging efficient prompts is the key.
 
 ---
-
-## 🤝 Contributions & Contact
-
-This PoC was conducted as part of an internal AM&D initiative. For collaboration or discussions on Agentic AI in SDLC workflows, feel free to connect.
 

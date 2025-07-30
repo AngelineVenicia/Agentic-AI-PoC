@@ -89,27 +89,11 @@ This repository presents a **code-free summary** of a production-level PoC on us
 
 ---
 
-## 📷 Visual Insights
-
-<p align="center">
-  <img src="screenshots/phase1_vs_phase2.png" width="500"/>
-  <br/>
-  <em>Phase comparison – Tests added, model behavior</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/effort_impact.png" width="450"/>
-  <br/>
-  <em>Effort comparison – Automated vs Manual</em>
-</p>
-
----
-
 ## 📚 Learnings
 
-- Agentic AI tools can significantly improve development workflows when carefully prompted and evaluated.
-- Model performance can vary widely depending upon the task— **evaluating multiple models is key**.
-- Desinging efficient prompts is the key.
+- **Agentic AI tools** can significantly improve development workflows when carefully prompted and evaluated.
+- Model performance can vary widely depending on the task — **evaluating multiple models** and choosing the right one is crucial.
+- Designing **efficient, context-aware prompts** is the key to generate meaningful and accurate outputs.
 
 ---
 

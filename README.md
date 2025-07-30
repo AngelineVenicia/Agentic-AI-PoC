@@ -27,10 +27,11 @@ This repository presents a **code-free summary** of a production-level PoC on us
 ### 🔹 Models Used
 - **GPT Models**:
   - GPT-4.1
-  - GPT-4.0
+  - GPT-4o
 - **Claude Sonnet Models**:
-  - Claude 3.5
-  - Claude 3.7
+  - Claude Sonnet 3.5
+  - Claude Sonnet 3.7
+  - Claude Sonnet 4
 
 - 🧪 Unit testing with existing test setup
 
@@ -65,7 +66,7 @@ This repository presents a **code-free summary** of a production-level PoC on us
 
 - ✅ **646 Passed** | ❌ **92 Failed**
 - ⚡ ~**20x speedup** in test generation
-- 🧠 **Better model reasoning** in Phase 2 with Claude Sonnet 4.0
+- 🧠 **Better model reasoning** in Phase 2 with Claude Sonnet 4
 
 ---
 
